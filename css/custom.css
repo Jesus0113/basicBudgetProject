@@ -1,0 +1,86 @@
+body {
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  
+background: linear-gradient(to right, #004e92, #000428); 
+}
+header {
+    margin: 30px 0;
+}
+.contenido {
+    padding:20px;
+}
+.contenido-principal {
+    
+    padding: 30px;
+    border-radius: 20px;
+}
+.presupuesto p{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.presupuesto p span {
+    font-weight: normal;
+}
+#gastos {
+    margin-bottom: 30px;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color:#004e92;
+    font-size: 22px;
+    margin-bottom:30px;
+}
+
+.btn-primary{
+    margin-top: 20px;
+}
+.span-gasto{
+    background-color:#004e928a;
+    padding: 5px;
+    border-radius: 30px;
+    color: beige;
+}
+.nombre-gasto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    border: #004e92 solid 2px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.input-presupuesto{
+
+    background-color:white;
+    width: 50%;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.primario, .secundario{
+
+    background-color: white;
+    border-radius: 30px;
+    min-height: 40vh;
+
+}
+
+.tercero{
+    width: 50%;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+}
